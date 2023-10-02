@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Survey</title>
+    <link href="SurveyFormCSS.css" rel="stylesheet"/>
 </head>
 <body>  
-    <link href="SurveyFormCSS.css" rel="stylesheet"/>
-    <article>
-    <h1>Online Games Survey</h1>
-    
-        <h2>Which online games do you mostly play?</h2>
-        <label class="game-label"><input type="checkbox" name="games[]" value="PUBGM">PUBGM</label>
-        <label class="game-label"><input type="checkbox" name="games[]" value="MLBB">MLBB</label>
-        <label class="game-label"><input type="checkbox" name="games[]" value="FARLIGHT 84">FARLIGHT 84</label>
-        <label class="game-label"><input type="checkbox" name="games[]" value="RAGNAROK">RAGNAROK</label>
-        <label class="game-label"><input type="checkbox" name="games[]" value="MIR4">MIR4</label>
+    <div class="menu">
+        <main>
+            <header class="header">
+                <h1 id="title">
+                    Online Games Survey
+                </h1>
+                <p id="Description">
+                    Please participate to this survey to improve our platform
+                </p>
+            </header>
+            <form action="" id="survey">
+                    <div class="Form-Group">
+                        <label for="Name"> Name:</label>
+                        <input type="Text" name="Name" id="name" class="formHandler" placeholder="Enter your name">
+                    </div>
+            </form>
+                <h2>Which online games do you mostly play?</h2>
+                <label class="game-label"><input type="checkbox" name="games[]" value="PUBGM">PUBGM</label>
+                <label class="game-label"><input type="checkbox" name="games[]" value="MLBB">MLBB</label>
+                <label class="game-label"><input type="checkbox" name="games[]" value="FARLIGHT 84">FARLIGHT 84</label>
+                <label class="game-label"><input type="checkbox" name="games[]" value="RAGNAROK">RAGNAROK</label>
+                <label class="game-label"><input type="checkbox" name="games[]" value="MIR4">MIR4</label>
 
-        <h3>Would you like to share any additional comments or recommendations for online gaming?</h3>
-        <textarea name="comments" rows="2" cols="30"></textarea>
+                <h3>Would you like to share any additional comments or recommendations for online gaming?</h3>
+                <textarea name="comments" rows="2" cols="30"></textarea>
 
-        <h3>What Platform do you prefer in streaming?</h3>
-        <textarea name="comments" rows="2" cols="30"></textarea>
-        
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+                <h3>What Platform do you prefer in streaming?</h3>
+                <textarea name="comments" rows="2" cols="30"></textarea>
+                
+                <br><br>
+                <input type="submit" value="Submit">
+        </main>
+    </div>
 </body>
 </html>

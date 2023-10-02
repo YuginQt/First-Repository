@@ -2,22 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-image: url(https://wallpapercave.com/wp/wp9430608.jpg);
 }
 
 h1 {
     text-align: center;
 }
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    
-}
 
+.menu {
+    width: 30%;
+    background-color: rgb(3, 181, 240);
+    margin-left: auto;
+    margin-right: auto;
+    background-origin: padding-box;
+  }
 h2 {
     margin-top: 10px;
 }
