@@ -19,7 +19,7 @@ body {
     text-align: center;
     color: #333;
     margin: 0;
-    background-image: url(https://wallpaperaccess.com/full/1433344.jpg);
+    background-color: #333;
 }
 
 h1 {
@@ -67,7 +67,7 @@ img {
   }
 
 #img-div {
-    background: white;
+    background-color: #333;
     padding: 10px;
     margin: 0;
 }
@@ -79,6 +79,7 @@ img {
 @media (max-width: 460px) {
 #img-caption {
     font-size: 1.4rem;
+    font-style: italic;
 }
 }
 
