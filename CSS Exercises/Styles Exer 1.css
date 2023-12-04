@@ -1,0 +1,26 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+
+  } 
+  
+  #box1 {
+    background-color: red;
+  }
+  
+  #box2 {
+    background-color: blue;
+  }
+  
+  #box3 {
+    background-color: green;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
