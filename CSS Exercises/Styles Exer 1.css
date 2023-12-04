@@ -2,13 +2,19 @@
 .box {
     width: 100px;
     height: 100px;
-    margin: 20px;
+    margin: auto;
+    margin-bottom: 20px;
     padding: 10px;
     border: 2px solid black;
     text-align: center;
 
   } 
   
+  h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   #box1 {
     background-color: red;
   }
