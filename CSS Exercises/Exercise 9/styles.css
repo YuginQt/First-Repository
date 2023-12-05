@@ -1,0 +1,44 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Parent box styling */
+.parent-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.parent-box h2 {
+    color: #333;
+}
+
+.parent-box p {
+    color: #555;
+}
+
+/* Child box styling */
+.child-box {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.child-box h3 {
+    color: #555;
+}
+
+.child-box p {
+    color: #777;
+}
